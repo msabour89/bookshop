@@ -1,0 +1,204 @@
+:root{
+    --main-color:#8ecae6;
+    --second-color:#023047;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* heading */
+.section-head{
+    padding-top: 20px;
+    text-align: center;
+    color: var(--main-color);
+    font-weight: bold;
+    font-size: 60px;
+    margin-top: 0;
+    margin-bottom: 0;
+    letter-spacing: -5px;
+
+}
+
+.section-p{
+    text-align: center;
+    color: var(--second-color);
+    font-weight: bold;
+    font-size: 15px;
+    margin-top:-5px;
+    margin-bottom: 20px;
+}
+/* end head section */
+
+/* header start */
+.header{
+    padding: 20px;
+    background-color: white;
+}
+.header .headbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.headbar .logo{
+    width: 200px;
+}
+
+.headbar ul{
+    list-style-type: none;
+}
+.headbar li{
+    display: inline-block;
+}
+.headbar ul a{
+    color: var(--second-color);
+    font-weight: bold;
+    font-size: 25px;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.headbar ul a:hover{
+    border-bottom: 2px solid var(--main-color);
+    padding: 20px;
+    font-size: 30px;
+    color: var(--main-color);
+}
+/* header end */
+/* home start  */
+.home{
+    background-image: url(../images/home.jpg) ;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+.home h3{
+    padding-top: 20px;
+    text-align: center;
+    color: var(--second-color);
+    font-weight: bold;
+    font-size: 60px;
+    margin-top:10px;
+    /* margin-bottom: 0; */
+    letter-spacing: -5px;
+}
+.home p{
+    text-align: center;
+    color: var(--second-color);
+    font-weight: bold;
+    font-size: 25px;
+    margin-top:-5px;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+}
+/* home end */
+
+/* store section Start */
+.store{
+    background-color: #f1efefd7;
+}
+.store .sec-store i{
+    color: var(--main-color);
+}
+.sec-store{
+    text-align: center;
+}
+.store .sec-store h3{
+    color: var(--main-color);
+}
+.store .sec-store p {
+    color: var(--second-color);
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.store .section-store {
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(400px,1fr));
+   grid-gap: 20px;
+
+}
+/* store section end */
+
+/* about section start  */
+.about .about-sec{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-sec img {
+width: 500px;
+height: 300px;
+padding: 30px;
+position: relative;
+}
+.about-sec p{
+    color: var(--second-color);
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 25px;
+}
+.about-sec .about-img::before {
+   content: "";
+   background-color: var(--main-color);
+   position: absolute;
+   width: 30px;
+   height: calc(100% + 60px);
+       }
+/* about section end  */
+
+/* contact us start  */
+.Contactus{
+    background-color: #f1efefd7;
+}
+.Contactus .form {
+    padding: 10px;
+    margin: 10px;
+    display: block;
+    border: 2px solid var(--second-color);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.Contactus .sendbt{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 400px;
+    color: var(--second-color);
+    background-color: var(--main-color);
+    font-weight: bold;
+    font-size: larger;
+    border: 1px solid var(--second-color);
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+
+}
+
+/* contact us end */
+/* footer start */
+.footer{
+ border-top: 2px solid var(--second-color);
+ background-color: var(--main-color);
+ padding: 10px;
+ text-align: center;
+}
+.footer span{
+font-weight: bold;
+color: var(--second-color);
+}
+.footer{
+    color: var(--second-color);
+}
+/* footer end */

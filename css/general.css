@@ -1,0 +1,36 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif
+}
+
+.container{
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 600px; */
+    /* background-color: rgba(243, 243, 243, 0.404); */
+}
+/* Small Screen*/
+@media(min-width :768px){
+    .container{
+        width: 750px;
+    }
+}
+/* medium screen */
+@media(min-width :992px){
+    .container{
+        width: 970px;
+    }
+}
+/* large Screen */
+@media(min-width :1200px){
+    .container{
+        width: 1170px;
+    }
+}
+/* end of general ruls */
